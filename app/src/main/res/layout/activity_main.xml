@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q1"
+        android:text="Q1-Using radio buttons/checkbox list out your hobbies."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q2"
+        android:layout_marginTop="10dp"
+        android:text="Q2- Take 4 buttons. Have 4 images in drawable folder. When user clicks on the button the respective image should be displayes."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q3"
+        android:layout_marginTop="10dp"
+        android:text="Q3-Create 5 buttons.
+   a.displaying factorial
+   b.displaying fibonacci series
+   c.displaying reverse of a number
+   d.dispalying sum of digits of a number
+ e.display armstrong of a number."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q4"
+        android:layout_marginTop="10dp"
+        android:text="4. Take input for a number and check if the number is prime or not."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q5"
+        android:layout_marginTop="10dp"
+        android:text="5. Take input for a number and check if the number is perfect or not."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q6"
+        android:layout_marginTop="10dp"
+        android:text="6. Take input for a number and check if the number is palindrome or not."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q7"
+        android:layout_marginTop="10dp"
+        android:text="7. Display seekbar. Whenever user moves the seekbar the progress should be displayed with a toast message."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q8"
+        android:layout_marginTop="10dp"
+        android:text="8. Write a program to display progress bar. When user clicks on the button the progress bar should be displayed."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q9"
+        android:layout_marginTop="10dp"
+        android:text="9. Display 5 stars. When the user clicks on the star it must return number as well as rating and display it using toast message."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q10"
+        android:layout_marginTop="10dp"
+        android:text="10. Write a program to display an image using image view. When user clicks on image it must display toast message."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/q11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"
+        android:text="11. Write a program for a multiple choice exam of 5 questions. Each having 4 options. When the user checks one optyion it should display correct or wrong."
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q12"
+        android:layout_marginTop="10dp"
+        android:text="12. Display 2 buttons with different colors. When use clicks on one of the buttons a toast message should be displayed saying which button the user clicked."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q13"
+        android:layout_marginTop="10dp"
+        android:text="13. Display 2 switches labelled as wifi and bluetooth. Consider a button when the user clicks on the button  the current state of both the switches must be displayed using toast."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q14"
+        android:layout_marginTop="10dp"
+        android:text="14. Write a program to create a textbox and a button using relative layout. Use necessary attributes to display background color of txtbox. "
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q15"
+        android:layout_marginTop="10dp"
+        android:text="15. using xml file set a default text in java file. when the user clicks on the button the text must b e changed and displayed."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q16"
+        android:layout_marginTop="10dp"
+        android:text="16. Write a program to input username, password, ph number. When user clicks on button message must be displayed saying enter the input."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q17"
+        android:layout_marginTop="10dp"
+        android:text="17. Display timepicker and also toast message when the time is selected."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q18"
+        android:layout_marginTop="10dp"
+        android:text="18. Display analog and digital clock one below the other when the user clicks on any clock, toast message must be displayed."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q19"
+        android:layout_marginTop="10dp"
+        android:text="19. Write a program to create 5 text views. and 5 buttons. Use scroll view and horizontal scroll view to scroll screen horizontally and vertically."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q20"
+        android:layout_marginTop="10dp"
+        android:text="20. Using number picker webview and button write a program to display the contents of the item name in the webview."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q21"
+        android:layout_marginTop="10dp"
+        android:text="21. Using implicit intent write a program to create 2 projects. The first project consists of a text view and a button, when user clicks on the button new activity must be opened which is present in the first project."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q22"
+        android:layout_marginTop="10dp"
+        android:text="Design an app to implement reading exterrnal storage. Use button."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q23"
+        android:layout_marginTop="10dp"
+        android:text="23. Design an app to open camera."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q24"
+        android:layout_marginTop="10dp"
+        android:text="24. Design an app to display zodiac sign as per the birthdate also calculate age."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q25"
+        android:layout_marginTop="10dp"
+        android:text="25. Design an app to implement broadcast reciever. A message should be displayed when the app has restarted. Message should be displayed when the network connection is to be changed."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q26"
+        android:layout_marginTop="10dp"
+        android:text="Basic Music Player."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q27"
+        android:layout_marginTop="10dp"
+        android:text="Music Player with service."
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q28"
+        android:layout_marginTop="10dp"
+        android:text="Adapter and List View Demostration"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q29"
+        android:layout_marginTop="10dp"
+        android:text=" Phone Dialer"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q30"
+        android:layout_marginTop="10dp"
+        android:text=" DataBase"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q31"
+        android:layout_marginTop="10dp"
+        android:text=" Shared Preferences"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q32"
+        android:layout_marginTop="10dp"
+        android:text="View Pager"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q33"
+        android:layout_marginTop="10dp"
+        android:text="Grid View/Gallary"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:shadowColor="@color/colorAccent"/>
+
+
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>
